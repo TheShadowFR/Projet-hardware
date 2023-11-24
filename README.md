@@ -11,13 +11,14 @@
 
 ### sketch_nov23a.ino
 - L27 Remplacer "YOUR_SSID" par le SSID du réseau WIFI utilisé.
-- L28 Remplacer "YOUR_PASSWORD" par le mod de passe du réseau WIFI utilisé.
+- L28 Remplacer "YOUR_PASSWORD" par le mot de passe du réseau WIFI utilisé.
 - L31 Remplacer YOUR_IPADRESS par le nom de domaine ou Adresse IP de votre serveur Raspberry.
 ### esp-db.php
 - L6 Remplacer "YOUR_USERNAME" par le nom d'utilisateur de la base de donnée.
 - L7 Remplacer "YOUR_PASSWORD" par le mot de passe de l'utilisateur de la base de donnée.
 
 ## Composants utilisés : 
+
 - 1 ESP32C3
 - 1 RFID-RC522
 - 1 LED Verte
@@ -29,7 +30,7 @@
  
 ## Bibliothèques utilisés : 
 
-- WiFi.h : Permet la connexion réseau (locale et Internet) à l'aide du bouclier WiFi Arduino.
+- WiFi.h : Permet la connexion réseau (local et Internet) à l'aide du bouclier WiFi Arduino.
 
 - HTTPClient.h : Bibliothèque pour effectuer facilement des requêtes HTTP GET, POST et PUT vers un serveur Web.
 
@@ -44,8 +45,8 @@
 ## Câblage :
 
 1. **MOSI  D10** (Master Out Slave In) la ligne de données sortantes du maître vers l'esclave.
-2. **MISO  D9** (Master In Slave Out) la ligne de données entrantes de l'esclave vers le maître.
-3. **SCK  D8** ligne d'horloge générée par le maître qui synchronise la transmission de données entre le maître et l'esclave.
+2. **MISO  D9** (Master In Slave Out) la ligne de donnée entrante de l'esclave vers le maître.
+3. **SCK  D8** la ligne d'horloge générée par le maître qui synchronise la transmission de données entre le maître et l'esclave.
 4. **SS  D4** (écrit SDA sur le lecteur) permet de sélectionner un esclave spécifique sur le bus SPI.
 5. **RST  D3** sert à réinitialiser le lecteur RFID.
 6. **LED rouge  D2** pour alimenter et contrôler la LED rouge.
