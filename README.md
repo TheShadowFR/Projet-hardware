@@ -7,6 +7,16 @@
 - esp-db.php -> code php pour intéragir avec la base de donnée
 - esp32c3_rfid.sql -> copie de la base de donnée SQL
 
+## Modifications à apporter:
+
+### sketch_nov23a.ino
+- L27 Remplacer "YOUR_SSID" par le SSID du réseau WIFI utilisé.
+- L28 Remplacer "YOUR_PASSWORD" par le mod de passe du réseau WIFI utilisé.
+- L31 Remplacer YOUR_IPADRESS par le nom de domaine ou Adresse IP de votre serveur Raspberry.
+### esp-db.php
+- L6 Remplacer "YOUR_USERNAME" par le nom d'utilisateur de la base de donnée.
+- L7 Remplacer "YOUR_PASSWORD" par le mot de passe de l'utilisateur de la base de donnée.
+
 ## Composants utilisés : 
 - 1 ESP32C3
 - 1 RFID-RC522
