@@ -38,7 +38,7 @@ CREATE TABLE `badge` (
 --
 
 INSERT INTO `badge` (`id`, `UID`, `state`) VALUES
-(1, '1234567890AZERTY', 1),
+(1, 'd33e2799', 1),
 (2, '1234567890000FSGVGCVDSC', 0),
 (3, 'azedvbcdvbfbs', 1);
 
