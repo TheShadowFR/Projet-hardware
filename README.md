@@ -26,14 +26,14 @@
 
 ## Câblage 
 
-1. MOSI  D10 (Master Out Slave In) la ligne de données sortantes du maître vers l'esclave.
-2. MISO  D9 (Master In Slave Out) la ligne de données entrantes de l'esclave vers le maître.
-3. SCK  D8 ligne d'horloge générée par le maître qui synchronise la transmission de données entre le maître et l'esclave.
-4. SS (écrit SDA sur le lecteur)  D4 pour sélectionner un esclave spécifique sur le bus SPI.
-5. RST  D3 sert à réinitialiser le lecteur RFID.
-6. LED rouge  D2 pour alimenter et contrôler la LED rouge.
-7. LED verte  D1 pour alimenter et contrôler la LED verte.
-8. 3.3V 3V3 pour alimenter le lecteur RFID.
+1. **MOSI  D10** (Master Out Slave In) la ligne de données sortantes du maître vers l'esclave.
+2. **MISO  D9** (Master In Slave Out) la ligne de données entrantes de l'esclave vers le maître.
+3. **SCK  D8** ligne d'horloge générée par le maître qui synchronise la transmission de données entre le maître et l'esclave.
+4. **SS  D4** (écrit SDA sur le lecteur) permet de sélectionner un esclave spécifique sur le bus SPI.
+5. **RST  D3** sert à réinitialiser le lecteur RFID.
+6. **LED rouge  D2** pour alimenter et contrôler la LED rouge.
+7. **LED verte  D1** pour alimenter et contrôler la LED verte.
+8. **3.3V 3V3** pour alimenter le lecteur RFID.
 
 ## Schéma du montage
 
