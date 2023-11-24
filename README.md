@@ -2,7 +2,7 @@
 
 ## Fichiers disponibles :
 
-- sketch_nov23a.ino -> code pour esp32c3
+- sketch_nov23a.ino -> code C++ pour esp32c3
 - esp32-action.php -> code php pour rendre disponible les UIDS authorisés
 - esp-db.php -> code php pour intéragir avec la base de donnée
 - esp32c3_rfid.sql -> copie de la base de donnée SQL
