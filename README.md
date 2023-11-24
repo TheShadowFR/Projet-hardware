@@ -1,5 +1,12 @@
 # Projet-hardware
 
+## Fichiers disponibles :
+
+sketch_nov23a.ino -> code pour esp32c3
+esp32-action.php -> code php pour rendre disponible les UIDS authorisés
+esp-db.php -> code php pour intéragir avec la base de donnée
+esp32c3_rfid.sql -> copie de la base de donnée SQL
+
 ## Composants utilisés : 
 - 1 ESP32C3
 - 1 RFID-RC522
@@ -24,7 +31,7 @@
 
 - MFRC522.h : La librairie Arduino <MFRC522.h> est utilisée pour interagir avec les modules de lecteur RFID (Radio-Frequency Identification) tels que le MFRC522, permettant la lecture et l'écriture de cartes RFID.
 
-## Câblage 
+## Câblage :
 
 1. **MOSI  D10** (Master Out Slave In) la ligne de données sortantes du maître vers l'esclave.
 2. **MISO  D9** (Master In Slave Out) la ligne de données entrantes de l'esclave vers le maître.
@@ -35,7 +42,7 @@
 7. **LED verte  D1** pour alimenter et contrôler la LED verte.
 8. **3.3V 3V3** pour alimenter le lecteur RFID.
 
-## Schéma du montage
+## Schéma du montage :
 
    ![image](https://github.com/TheShadowFR/Projet-hardware/assets/117437326/7f908021-9fd4-499e-bce2-0d41651717a7)
 
