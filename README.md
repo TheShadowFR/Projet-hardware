@@ -26,10 +26,10 @@
 
 ## Câblage 
 
-- MOSI  D10
-- MISO  D9
-- SCK  D8
-- SDA  D4
-- RST  D3
-- LED rouge  D2
-- LED verte  D1 
+1. MOSI  D10
+2. MISO  D9
+3. SCK  D8
+4. SDA  D4
+5. RST  D3
+6. LED rouge  D2
+7. LED verte  D1 
